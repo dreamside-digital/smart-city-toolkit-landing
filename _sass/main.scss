@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  border-top: 1px solid #f8f9fa;
+
+  img {
+    max-width: 250px;
+  }
+}
