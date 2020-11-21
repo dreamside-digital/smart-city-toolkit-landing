@@ -1,0 +1,267 @@
+
+.cityscape {
+    position: relative;
+    .map-pin {
+        color: black;
+        position: absolute;
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 5px;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+        transition: all 0.3s ease-in-out;
+        max-width: 200px;
+        &:hover,
+        &:focus,
+        &:focus-within {
+            transform: translateY(-5px);
+            filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+        }
+        img {
+            width: 3rem;
+            margin: .5rem auto 0;
+            display: none;
+        }
+        .pin-title {
+            display: block;
+            padding: .5rem 1rem;
+        }
+        svg {
+            position: absolute;
+            fill: white;
+            left: 0;
+        }
+        svg.bottom-left {
+            bottom: -30px;
+            left: 15px;
+        }
+        svg.bottom-right {
+            bottom: -30px;
+            left: 66%;
+        }
+        svg.top {
+            top: -1.5rem;
+        }
+        svg.left {
+            left: -3rem;
+        }
+        a {
+            color: black;
+            &:hover,
+            &:focus,
+            &:focus-within {
+                text-decoration: underline;
+            }
+        }
+
+        &.mobile {
+            background-color: transparent;
+            padding: 0;
+            flex-direction: column;
+            height: 150px;
+            max-width: 120px;
+
+            a {
+                background-color: white;
+                border-radius: 5px;
+                position: relative;
+                flex: 0 0 auto;
+                z-index: 1;
+
+                .pin-title {
+                    padding: 0.4rem;
+
+                }
+            }
+
+            .line {
+                flex: 1 0 auto;
+                width: 3px;
+                height: auto;
+                background-color: white;
+                position: absolute;
+                left: 10px;
+                top: 0;
+                bottom: 0;
+            }
+
+            .pointer {
+                flex: 0 0 auto;
+                height: 10px;
+                width: 10px;
+                border-radius: 10px;
+                background-color: white;
+                left: 6px;
+                bottom: 0;
+                position: absolute;
+
+            }
+
+            .bottom-right {
+                .pointer {
+                    left: unset;
+                    right: 6px;
+                }
+
+                .line {
+                    left: unset;
+                    right: 10px;
+                }
+            }
+
+            .top-right {
+                flex-direction: column-reverse !important;
+
+                .pointer {
+                    order: 1;
+                    display: flex;
+                    top: 0;
+                    left: unset;
+                    right: 6px;
+                }
+
+                .line {
+                    order: 2;
+                    display: flex;
+                    left: unset;
+                    right: 10px;
+                }
+
+                a {
+                    order: 3;
+                    display: flex;
+                    bottom: 0;
+                }
+            }
+
+            .top-left {
+                flex-direction: column-reverse !important;
+
+                .pointer {
+                    order: 1;
+                    display: flex;
+                    top: 0;
+                }
+
+                .line {
+                    order: 2;
+                    display: flex;
+                }
+
+                a {
+                    order: 3;
+                    display: flex;
+                    bottom: 0;
+                }
+            }
+
+            &.public-health {
+                height: 200px;
+            }
+
+            &.housing {
+                height: 215px;
+                top: unset;
+                bottom: 64%;
+            }
+
+            &.utilities {
+                height: 75px;
+                top: unset;
+                bottom: 75%;
+                left: 31%;
+            }
+
+            &.information-technology {
+                top: unset;
+                bottom: 97%;
+                right: 6%;
+                height: 174px;
+            }
+
+            &.economic-development {
+                right: 7%;
+                top: 49%;
+                height: 300px;
+            }
+
+            &.parks-recreation {
+                top: 84%;
+                left: 4%;
+                height: 240px;
+            }
+
+            &.emergency-management {
+                top: 63%;
+                left: 16%;
+                height: 215px;
+            }
+
+            &.civic-engagement {
+                top: 70%;
+                right: 40%;
+                height: 110px;
+            }
+
+            &.transportation-mobility {
+                top: 63%;
+                left: 67%;
+                height: 320px;
+            }
+
+            &.infrastructure {
+                bottom: 51%;
+                left: 57%;
+                right: unset;
+            }
+        }
+    }
+
+    .infrastructure {
+        bottom: 52%;
+        left: 57%;
+    }
+    .public-health {
+        bottom: 55%;
+        left: 8%;
+    }
+    .housing {
+        top: 30%;
+        left: 20%;
+    }
+    .transportation-mobility {
+        bottom: 39%;
+        left: 67%;
+    }
+    .parks-recreation {
+        bottom: 20%;
+        left: 12%;
+    }
+    .economic-development {
+        top: 39%;
+        right: 14%;
+    }
+    .municipal-administration {
+        bottom: 82%;
+        left: 45%;
+    }
+    .civic-engagement {
+        right: 40%;
+        bottom: 37%;
+    }
+    .information-technology {
+        top: 16%;
+        right: 6%;
+    }
+    .emergency-management {
+        bottom: 46%;
+        left: 16%;
+    }
+    .utilities {
+        top: 10%;
+        left: 22%;
+    }
+
+}
+
+

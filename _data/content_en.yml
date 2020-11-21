@@ -1,31 +1,112 @@
-landing_title: Exploring the Smart City
-intro_text: Smart City tools and applications are all around us. This toolkit describes many different smart city applications and tools already in use in cities today. Explore the cityscape below to see the different areas of municipal activity and service that employ smart city approaches. Click on the map to explore specific applications and technologies. Smart city solutions should not be blindly adapted, but instead implemented in ways that assess and account for risks and unforeseen effects. Each solution described discusses common risks and their management.
+intro_title: Exploring the Smart City
+intro_subtitle: Smart City tools and applications are all around us.
+intro_text: This toolkit describes many different smart city applications and tools already in use in cities today. Explore the cityscape below to see the different areas of municipal activity and service that employ smart city approaches. Click on the map to explore specific applications and technologies. Smart city solutions should not be blindly adapted, but instead implemented in ways that assess and account for risks and unforeseen effects. Each solution described discusses common risks and their management.
+
+meta_issues_title: Meta-issues
 meta_issues_text: "Beneath the cityscape we've identified five \"meta-issues\": privacy, security, inclusion, intellectual property, and inclusion. These meta-issues recur time and time again as municipalities consider, select, and implement smart city approaches to providing municipal services. Clicking on each meta-issue leads to a discussion of approaches to and resources and tools for addressing these meta-issues in pro-active ways."
+meta_issues_links:
+  - link_text: Privacy
+    link_url: https://smartcitytoolkit.cippic.ca/meta-issues/privacy
+    link_icon: privacy.png
+  - link_text: Security
+    link_url: https://smartcitytoolkit.cippic.ca/meta-issues/security
+    link_icon: security.png
+  - link_text: Inclusion
+    link_url: https://smartcitytoolkit.cippic.ca/meta-issues/inclusion
+    link_icon: inclusion.png
+  - link_text: Intellectual Property
+    link_url: https://smartcitytoolkit.cippic.ca/meta-issues/intellectual-property
+    link_icon: intellectual-property.png
+  - link_text: Procurement
+    link_url: https://smartcitytoolkit.cippic.ca/meta-issues/procurement
+    link_icon: procurement.png
+
+
 header:
+  header_logo: smart-city-logo-en.png
+  header_logo_alt: Smart City Toolkit
   lang:
     link_text: Français
     link_url: /fr
+  links:
+    - link_text: About
+      link_url: https://smartcitytoolkit.cippic.ca/about
+    - link_text: Resources
+      link_url: https://smartcitytoolkit.cippic.ca/resources
+    - link_text: Contact
+      link_url: https://smartcitytoolkit.cippic.ca/contact
+
 footer:
+  acknowledgements_title: Acknowledgements
+  acknowledgements_text: This toolkit was made available to you through an investment from Infrastructure Canada, and the hard work of the law students of CIPPIC, the Samuelson-Glushko Canadian Internet Policy and Public Interest Clinic of the Common Law Section of the Faculty of Law, University of Ottawa.
   logos:
-    - image: INFC-Col_transparent.png
+    - image: infra-logo.png
       link_text: Infrastructure Canada
       link_url: https://www.infrastructure.gc.ca/index-eng.html
-    - image: Canada_01.png
+    - image: canada-logo.png
       link_text: Government of Canada
       link_url: https://www.canada.ca/en.html
-    - image: cippic-logo.jpg
+    - image: cippic-logo.png
       link_text: CIPPIC
       link_url: https://cippic.ca/
   links:
-    - link_text: About
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/about
-    - link_text: Resources
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/resources
-    - link_text: Glossary
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/glossary
-    - link_text: Contact
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/contact
-    - link_text: Privacy
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/privacy-policy
+    - link_text: Privacy Policy
+      link_url: https://smartcitytoolkit.cippic.ca/privacy-policy
     - link_text: Creative Commons By-NC-SA 4.0
       link_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+cityscape:
+  - name: housing
+    link_url: https://smartcitytoolkit.cippic.ca/housing
+    link_text: Housing
+    arrow_position: bottom-left
+  - name: public-health
+    link_url: https://smartcitytoolkit.cippic.ca/public-health
+    link_text: Public Health
+    arrow_position: bottom-left
+  - name: emergency-management
+    link_url: https://smartcitytoolkit.cippic.ca/emergency-management
+    link_text: Emergency management
+    arrow_position: bottom-left
+    pointer_position: top-left
+  - name: information-technology
+    link_url: https://smartcitytoolkit.cippic.ca/information-technology
+    link_text: Information technology
+    arrow_position: bottom-right
+    pointer_position: bottom-right
+  - name: municipal-administration
+    link_url: https://smartcitytoolkit.cippic.ca/municipal-administration
+    link_text: Municipal administration
+    arrow_position: bottom-left
+  - name: utilities
+    link_url: https://smartcitytoolkit.cippic.ca/utilities
+    link_text: Utilities
+    arrow_position: bottom-left
+  - name: infrastructure
+    link_url: https://smartcitytoolkit.cippic.ca/infrastructure
+    link_text: Infrastructure
+    arrow_position: bottom-left
+  - name: transportation-mobility
+    link_url: https://smartcitytoolkit.cippic.ca/transportation-mobility
+    link_text: Transportation and mobility
+    arrow_position: bottom-left
+    pointer_position: top-left
+  - name: civic-engagement
+    link_url: https://smartcitytoolkit.cippic.ca/civic-engagement
+    link_text: Civic engagement
+    arrow_position: bottom-right
+    pointer_position: top-right
+  - name: parks-recreation
+    link_url: https://smartcitytoolkit.cippic.ca/parks-recreation
+    link_text: Parks and recreation
+    arrow_position: bottom-left
+    pointer_position: top-left
+  - name: economic-development
+    link_url: https://smartcitytoolkit.cippic.ca/economic-development
+    link_text: Economic development and culture
+    arrow_position: bottom-right
+    pointer_position: top-right
+
+
+
+

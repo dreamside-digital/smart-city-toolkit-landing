@@ -1,31 +1,105 @@
-landing_title: À la découverte de la ville intelligente
+intro_title: À la découverte de la ville intelligente
 intro_text: La présente trousse décrit plusieurs des applications existantes et des outils actuels qui rendent une ville intelligente. Explorez le paysage urbain ci-dessous pour découvrir les activités et les services municipaux qui caractérisent une ville intelligente. Cliquez sur la carte pour en apprendre davantage sur une application ou une technologie donnée. Les solutions retenues pour une ville intelligente ne devraient pas être adaptées aveuglément, mais plutôt être mises en place en en évaluant et documentant les risques et les conséquences imprévues. Les risques communs et leur gestion sont indiqués pour chacune des solutions décrites.
+
+meta_issues_title: Métapréoccupations
 meta_issues_text: "Nous avons indiqué sous le paysage urbain cinq métapréoccupations : vie privée, sécurité, approvisionnement, propriété intellectuelle et inclusion. Ces métapréoccupations sont soulevées régulièrement lorsque les municipalités soupèsent, choisissent et instaurent des approches intelligentes pour la prestation de leurs services. En cliquant sur chaque métapréoccupation, vous en apprendrez davantage sur la manière d’y répondre, ainsi que sur les ressources et les outils nécessaires pour le faire de façon proactive."
+meta_issues_links:
+  - link_text: Vie privée
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/metapreoccupations/vie-privee
+    link_icon: privacy.png
+  - link_text: Sécurité
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/metapreoccupations/securite
+    link_icon: security.png
+  - link_text: Inclusion
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/metapreoccupations/inclusion
+    link_icon: inclusion.png
+  - link_text: Propriété intellectuelle
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/metapreoccupations/propriete-intellectuelle
+    link_icon: intellectual-property.png
+  - link_text: Approvisionnement
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/metapreoccupations/approvisionnement
+    link_icon: procurement.png
+
+
 header:
+  header_logo: smart-city-logo-en.png
+  header_logo_alt: Trousse Ville Intelligente
   lang:
     link_text: English
     link_url: /en
+  links:
+    - link_text: À propos
+      link_url: https://smartcitytoolkit.cippic.ca/v/fr/a-propos
+    - link_text: Ressources
+      link_url: https://smartcitytoolkit.cippic.ca/v/fr/ressources
+    - link_text: Nous joindre
+      link_url: https://smartcitytoolkit.cippic.ca/v/fr/nous-joindre
+
 footer:
+  acknowledgements_title: Remerciements
+  acknowledgements_text: La trousse Ville intelligente vous a été mise à votre disposition grâce à un investissement d'Infrastructure Canada et au travail acharné des étudiants en droit du CIPPIC, la Clinique d'intérêt public et de politique Internet canadienne Samuelson-Glushko de la Section de common law de la Faculté de droit, Université d'Ottawa.
   logos:
-    - image: INFC-Col_transparent.png
+    - image: infra-logo.png
       link_text: Infrastructure Canada
       link_url: https://www.infrastructure.gc.ca/index-eng.html
-    - image: Canada_01.png
+    - image: canada-logo.png
       link_text: Gouvernement du Canada
       link_url: https://www.canada.ca/en.html
-    - image: cippic-logo.jpg
+    - image: cippic-logo.png
       link_text: CIPPIC
       link_url: https://cippic.ca/
   links:
-    - link_text: À propos
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/about
-    - link_text: Ressources
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/resources
-    - link_text: Glossaire
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/glossary
-    - link_text: Contact
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/contact
-    - link_text: Privacy
-      link_url: https://nomadic-labs.gitbook.io/smart-city-toolkit/privacy-policy
+    - link_text: Confidentialité
+      link_url: https://smartcitytoolkit.cippic.ca/v/fr/confidentialite
     - link_text: Creative Commons By-NC-SA 4.0
       link_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+cityscape:
+  - link_text: Services publics
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/services-publics
+    name: utilities
+    arrow_position: bottom-left
+  - link_text: Logement
+    name: housing
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/logement
+    arrow_position: bottom-left
+  - link_text: Santé Publique
+    name: public-health
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/sante-publique
+    arrow_position: bottom-left
+  - link_text: Gestion des services d'urgence
+    name: emergency-management
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/gestion-des-urgences
+    arrow_position: bottom-left
+  - link_text: Administration municipale
+    name: municipal-administration
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/administration-municipale
+    arrow_position: bottom-left
+  - link_text: Infrastructures
+    name: infrastructure
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/infrastructures
+    arrow_position: bottom-left
+  - link_text: Transport et mobilité
+    name: transportation-mobility
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/transports
+    arrow_position: bottom-left
+  - link_text: Engagement civique
+    name: civic-engagement
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/engagement-civique
+    arrow_position: bottom-left
+  - link_text: Parcs et installations
+    name: parks-recreation
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/parcs-et-loisirs
+    arrow_position: bottom-left
+  - link_text: Technologies de l'Information
+    name: information-technology
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/technologies-de-l-information
+    arrow_position: bottom-right
+  - link_text: Développement économique et initiatives culturelles
+    name: economic-development
+    link_url: https://smartcitytoolkit.cippic.ca/v/fr/developpement-economique-culture
+    arrow_position: bottom-right
+
+
+
+

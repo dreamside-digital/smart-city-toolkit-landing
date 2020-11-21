@@ -1,22 +1,13 @@
-<footer class="landing-footer d-flex flex-column align-items-center">
-  <div class="footer-left">
-    <ul class="list-unstyled d-flex align-items-center">
-    {% for logo in content.footer.logos %}
-      <li class="nav-link">
-        <a href="{{ logo.link_url }}">
-          <img class="" src="{{ site.baseurl }}/assets/images/{{ logo.image }}" alt="{{ logo.link_text }}" />
-        </a>
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
-  <div class="footer-right">
-    <ul class="list-unstyled d-flex align-items-center">
-      {% for link in content.footer.links %}
-        <li class="nav-link">
-          <a href="{{ link.link_url }}">{{ link.link_text }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+<footer class="landing-footer d-flex flex-column align-items-center navbar-light navbar-expand-lg py-2">
+  <div class="row">
+    <div class="col-12">
+      <ul class="list-unstyled d-flex align-items-center navbar-nav">
+        {% for link in content.footer.links %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.gitbook_root }}{{ link.link_url }}">{{ link.link_text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </footer>
