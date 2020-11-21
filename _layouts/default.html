@@ -43,7 +43,7 @@
 
       {% for link in content.cityscape %}
         <div class="map-pin {{ link.name }} d-none d-md-block">
-          <a href="{{ site.gitbook_root }}{{ link.link_url }}" title="{{ link.link_text }}">
+          <a href="{{ link.link_url }}" title="{{ link.link_text }}">
             <svg class="{{ link.arrow_position }}" height="30" width="30">
               <polygon points="0,0 27,0 14,16"></polygon>
             </svg>
@@ -53,7 +53,7 @@
 
         <div class="map-pin mobile {{ link.name }} d-flex d-md-none">
           <div class="position-relative d-flex flex-column h-100 w-100 {{ link.pointer_position }}">
-            <a href="{{ site.gitbook_root }}{{ link.link_url }}" title="{{ link.link_text }}">
+            <a href="{{ link.link_url }}" title="{{ link.link_text }}">
               <span class="pin-title">{{ link.link_text }}</span>
             </a>
             <div class="line"></div>
@@ -71,7 +71,7 @@
           <ul class="list-unstyled">
             {% for link in content.meta_issues_links %}
               <li class="mb-3">
-                <a class="btn btn-light btn-issues px-4 py-2 w-100 text-left" href="{{ site.gitbook_root }}{{ link.link_url }}">
+                <a class="btn btn-light btn-issues px-4 py-2 w-100 text-left" href="{{ link.link_url }}">
                   <img class="icon mr-3" src="{{ '/assets/images/' | relative_url }}{{ link.link_icon }}" alt="{{ link.link_text }} icon">
                   <span class="text-uppercase font-weight-bold">{{ link.link_text }}</span>
                 </a>
